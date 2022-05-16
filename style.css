@@ -1,0 +1,39 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.no-copy {
+	/* Chrome all / Safari all */
+	-webkit-user-select: none;
+	/* Firefox all */
+	-moz-user-select: none;
+	/* IE 10+ */
+	-ms-user-select: none;
+	/* Likely future */
+	user-select: none;
+	cursor: default;
+}
+
+.allow-copy {
+	/* Chrome all / Safari all */
+	-webkit-user-select: text;
+	/* Firefox all */
+	-moz-user-select: text;
+	/* IE 10+ */
+	-ms-user-select: text;
+	/* Likely future */
+	user-select: text;
+	cursor: auto;
+}
